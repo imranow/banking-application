@@ -32,6 +32,8 @@ public class CustomerService {
 		Customer existing=myTempCustomer.get();		
 		existing.setUserName(customer.getUserName());
 		existing.setPassword(customer.getPassword());
+		existing.setEmail(customer.getEmail());
+		existing.setPhone(customer.getPhone());
 		return this.repo.save(existing);
 	}
 	public boolean deleteCustomer(Long id) {

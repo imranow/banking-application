@@ -10,11 +10,15 @@ import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 
 
@@ -30,10 +34,8 @@ public class Account {
 	@Column
 	private int pin;
 	
-	@OneToMany(mappedBy = "Customer", fetch = FetchType.EAGER)
-    @OnDelete(action = OnDeleteAction.CASCADE)
-    private List<Customer> customer = new ArrayList<>();
-
+	private Customer customer;
+	
 	@Id
 	@GeneratedValue
 	public int getId() {
@@ -59,16 +61,18 @@ public class Account {
 	public void setPin(int pin) {
 		this.pin = pin;
 	}
-
-	public List<Customer> getCustomer() {
+	@ManyToOne(targetEntity=Customer.class)
+	@JsonIgnore
+	public Customer getCustomer() {
 		return customer;
 	}
 
-	public void setCustomer(List<Customer> customer) {
+	public void setCustomer(Customer customer) {
 		this.customer = customer;
 	}
 
-	public Account(int id, String accountNumber, int pin, List<Customer> customer) {
+
+	public Account(int id, String accountNumber, int pin, Customer customer) {
 		super();
 		this.id = id;
 		this.accountNumber = accountNumber;

@@ -1,31 +1,41 @@
 package com.example.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 @Entity
-@Table(name="Customer")
+@Table(name = "Customer")
 public class Customer {
-	
 
 	private Long id;
-	
-	@Column(name="uname", unique = true, nullable = false)
+
+	@Column(name = "uname", unique = true, nullable = false)
 	private String userName;
-	
-	@Column(nullable=false)
+
+	@Column(nullable = false)
 	private String password;
-	
+
 	private String email;
-	
+
 	private Long phone;
-	
-	@ManyToOne
-	private Account account;
+
+	//@OnDelete(action = OnDeleteAction.CASCADE)
+	private List<Account> account = new ArrayList<>();
 
 	@Id
 	@GeneratedValue
@@ -68,16 +78,18 @@ public class Customer {
 	public void setPhone(Long phone) {
 		this.phone = phone;
 	}
-
-	public Account getAccount() {
+	@OneToMany(mappedBy = "customer")
+	@JsonIgnore
+	public List<Account> getAccount() {
 		return account;
 	}
 
-	public void setAccount(Account account) {
+	public void setAccount(List<Account> account) {
 		this.account = account;
 	}
 
-	public Customer(Long id, String userName, String password, String email, Long phone, Account account) {
+	
+	public Customer(Long id, String userName, String password, String email, Long phone, List<Account> account) {
 		super();
 		this.id = id;
 		this.userName = userName;
@@ -90,8 +102,5 @@ public class Customer {
 	public Customer() {
 		super();
 	}
-	
-	
-	
-	
+
 }
