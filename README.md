@@ -7,6 +7,12 @@
 **Features**
 <br>
 * add new customer
-* 
+* add new account
 * read customer
+* read account
+* update customer details
+* update account details
+* delete customer from id
+
+<br>
 
