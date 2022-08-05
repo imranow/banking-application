@@ -1,5 +1,5 @@
 # banking-application
 #### By Imran
-**_This project provides functionality as a bank application where it calculates interest, withdraws & deposit money, and see your balance._**
+**_This is a simple banking application that contains a 'Customer' CRUD app with multiple 'Bank accounts' CRUD functionality ._**
 <br>
 **Features**
