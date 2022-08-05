@@ -5,6 +5,6 @@
 <br>
 
 **Features**
-<br>
 *add new customer
+*read customer
 
