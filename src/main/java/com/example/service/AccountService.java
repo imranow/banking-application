@@ -23,7 +23,7 @@ public class AccountService {
 		return this.repo.findAll();
 	}
 
-	public Account updateAccount(Long id , Account account){
+	public Account updateAccount(int id , Account account){
 		Account temp = this.repo.findById(id).orElseThrow(CustomerNotFoundException::new);
 		Optional<Account> myTempAccount=Optional.of(temp);
 		Account existing=myTempAccount.get();		
@@ -32,7 +32,7 @@ public class AccountService {
 		existing.setCustomer(account.getCustomer());
 		return this.repo.save(existing);
 	}
-	public boolean deleteAccount(Long id) {
+	public boolean deleteAccount(int id) {
 		this.repo.deleteById(id);
 		boolean exists=this.repo.existsById(id);
 		return !exists;

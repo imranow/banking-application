@@ -34,16 +34,16 @@ public class AccountController {
 		return this.service.getAllAccount();
 	}
 	@PutMapping("/update/{id}")
-	public Account update (@PathVariable Long id,@RequestBody Account account) {
+	public Account update (@PathVariable int id,@RequestBody Account account) {
 	
 		return this.service.updateAccount(id, account);
 	}
 	@DeleteMapping("/delete/{id}")
-	public void delete (@PathVariable Long id) {
+	public void delete (@PathVariable int id) {
 		this.service.deleteAccount(id);
 	}
 
-	@GetMapping("/login/{accountNumber}/{pin}")
+	@GetMapping("/access/{accountNumber}/{pin}")
 	public int login(@PathVariable String accountNumber, @PathVariable int pin){
 		return this.service.checkAccess(accountNumber, pin);
 	}

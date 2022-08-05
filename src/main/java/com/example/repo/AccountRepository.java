@@ -11,7 +11,7 @@ import com.example.model.Account;
 
 @Repository
 @EnableJpaRepositories
-public interface AccountRepository extends JpaRepository<Account, Long>{
+public interface AccountRepository extends JpaRepository<Account, Integer>{
 	@Query(value="SELECT a from Account a WHERE a.accountNumber =?1 and a.pin =?2", nativeQuery=true)
 	 List<Account>access(String accountNumber, int pin);
 		
