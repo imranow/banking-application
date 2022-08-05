@@ -90,7 +90,7 @@
 
 * This is a Spring Boot application so it uses Tom cat server
 * The port number used is 8085 so make sure that port number is free
-* Once you have imported the project onto Spring Boot you can open it by either 
+* Once you have imported the project onto Spring Boot you can open it by either; 
  1. Right click on application and Run as Spring Boot appication
  2. Right click on application and Run as Java application
 * After getting the server up and running, you can run the CRUD operations using Postman as shown above
