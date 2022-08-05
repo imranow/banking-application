@@ -12,7 +12,10 @@
 * read account
 * update customer details
 * update account details
-* delete customer from id
+* delete customer by id
+* delete account by id
+* check customer username and password
+* check account accountnumber and pin
 
 <br>
 
