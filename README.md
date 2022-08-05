@@ -11,9 +11,9 @@
 *You will need to create a MySQL database with the name banking-application and add credentials to application.properties under src/main/resources*
 
 <img src=https://github.com/imranow/banking-application/blob/main/assets/app_properties.png>
-<br<
-###Features
 <br>
+###Features
+
 * add new customer
 * add new account
 * read customer
