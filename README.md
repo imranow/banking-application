@@ -32,3 +32,13 @@
 
 <img src=https://github.com/imranow/banking-application/blob/main/assets/mysql_diagram.png>
 
+*As you can see the tables are linked by Customer ID*
+
+<br>
+
+#### Execution using Postman - CRUD
+*create customer*
+<img src =https://github.com/imranow/banking-application/blob/main/assets/Customer_create.png>
+
+
+
