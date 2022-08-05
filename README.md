@@ -5,10 +5,10 @@
 <br>
 
 ### Installation
-* The project is created with Maven, so you need to import it to the IDE and build the project to resolve the dependencies.
+* The project is created with Maven, so you need to import it to the IDE and build the project to resolve the dependencies.*
 
 ### Database structure
-* You will need to create a MySQL database with the name banking-application and add credentials to application.properties under src/main/resources
+* You will need to create a MySQL database with the name banking-application and add credentials to application.properties under src/main/resources*
 
 <img src=https://github.com/imranow/banking-application/blob/main/assets/app_properties.png>
 
