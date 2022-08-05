@@ -117,7 +117,7 @@
 
 ### What I've learnt from this Project:
 
-*_I have learnt how to build a back-end API that can perform CRUD operations using Postman and build various Java and Spring Boot functionalities such as JUnit testing and LOMBOK. I've also learnt how to use MySQL to connect the database. In this project I expected it to be very difficult due to the short deadline and as it was my first time learning Java. In the future I'd like to correct some mistakes made on the CRUD operations such as checking the account and customer. I'd also like to design a front end instead of using Postman and add functionality such as adding interest rates on certain account types._*
+*_I have learnt how to build a back-end API that can perform CRUD operations using Postman and build various Java and Spring Boot functionalities such as JUnit testing and LOMBOK. I've also learnt how to use MySQL to connect the database. In this project I expected it to be very difficult due to the short deadline and as it was my first time learning Java. In the future I'd like to correct some mistakes made such as the JUnit testing and on the CRUD operations(checking the account and customer) as shown above. I'd also like to design a front end instead of using Postman and add functionality such as adding interest rates on certain account types._*
 
 
 
