@@ -68,6 +68,14 @@
 
 <img src=https://github.com/imranow/banking-application/blob/main/assets/account_create.png>
 
+*read account*
+
+<img src=https://github.com/imranow/banking-application/blob/main/assets/account_readaccountnumber.png>
+
+*update account*
+
+<img src=https://github.com/imranow/banking-application/blob/main/assets/account_updatewithid.png
+
 
 
 
