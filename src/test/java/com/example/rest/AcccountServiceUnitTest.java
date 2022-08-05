@@ -15,7 +15,7 @@ import com.example.service.CustomerService;
 
 @SpringBootTest
 public class AcccountServiceUnitTest {
-	/*@Autowired
+	@Autowired
 	private Account service;
 	
 	@MockBean
@@ -24,8 +24,8 @@ public class AcccountServiceUnitTest {
 	@Test
     void testCreate() {
     	 // GIVEN is our testing data - you can make this a final local variable if you want, e.g.:
-        final Account TEST_ACCOUNT = new Account(1,"hello","1234", "Customer");
-        final Account TEST_SAVED_ACCOUNT = new Account(1,"hello","1234","Customer");
+        final Account TEST_ACCOUNT = new Account(1,"hello","1234", Customer);
+        final Account TEST_SAVED_ACCOUNT = new Account(1,"hello","1234",Customer);
 
         // WHEN
         Mockito.when(this.repo.save(TEST_ACCOUNT)).thenReturn(TEST_SAVED_ACCOUNT);
@@ -35,7 +35,7 @@ public class AcccountServiceUnitTest {
 
         // verify that our repo was accessed exactly once
         Mockito.verify(this.repo, Mockito.times(1)).save(TEST_ACCOUNT);
-    }*/
+    }
 
 
 	

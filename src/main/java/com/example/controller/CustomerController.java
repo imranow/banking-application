@@ -25,7 +25,7 @@ public class CustomerController {
 	public Customer create(@RequestBody Customer customer) { 
 		return this.service.addCustomer(customer);
 	}
-	@GetMapping("/userName")
+	@GetMapping("/read")
 	public List<Customer> getList() {
 		return this.service.getAllCustomer();
 	}

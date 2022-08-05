@@ -17,7 +17,6 @@ public class CustomerService {
 	@Autowired
 	public CustomerRepository repo;
 	
-	//private ModelMapper mapper;
 	
 	public Customer addCustomer(Customer customer) {
 		return this.repo.save(customer);
@@ -42,9 +41,6 @@ public class CustomerService {
 		return !exists;
 	}
 	
-	/*public List<Customer> getphone(Long phone){
-		return this.repo.findBandById(id);
-	}*/
 	public List<Customer> getlogin(String userName, String password){
 		return this.repo.login(userName, password);
 	}

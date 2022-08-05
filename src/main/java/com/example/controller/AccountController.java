@@ -43,7 +43,7 @@ public class AccountController {
 		this.service.deleteAccount(id);
 	}
 
-	@GetMapping("/login/{userName}/{password}")
+	@GetMapping("/login/{accountNumber}/{pin}")
 	public int login(@PathVariable String accountNumber, @PathVariable int pin){
 		return this.service.checkAccess(accountNumber, pin);
 	}
