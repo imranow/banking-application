@@ -6,6 +6,7 @@
 
 **Features**
 <br>
-*add new customer
-*read customer
+* add new customer
+* 
+* read customer
 
