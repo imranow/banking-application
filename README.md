@@ -90,10 +90,19 @@
 
 * This is a Spring Boot application so it uses Tom cat server
 * The port number used is 8085 so make sure that port number is free
-* Once you have imported the project onto Spring Boot you can open it by either; 
-  1. Right click on application and Run as Spring Boot appication
-  2. Right click on application and Run as Java application
+* Once you have imported the project onto Spring Boot you can run it by either; 
+  1. Right clicking on application and Run as Spring Boot appication
+  2. Right clicking on application and Run as Java application
 * After getting the server up and running, you can run the CRUD operations using Postman as shown above
+
+<br>
+
+#### Testing
+
+*As you can see below, testCreate was done to test the functionality of the system but unfortunately did not pass
+*Test were done using Mockito and JUnit testing
+
+<img src=https://github.com/imranow/banking-application/blob/main/assets/Junit_test.png>
 
 
 
