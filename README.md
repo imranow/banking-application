@@ -86,7 +86,7 @@
 
 <br>
 
-#### How to execute application on Spring Boot
+#### How to execute application on Spring Boot:
 
 * This is a Spring Boot application so it uses Tom cat server
 * The port number used is 8085 so make sure that port number is free
