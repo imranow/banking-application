@@ -12,7 +12,7 @@
 
 <img src=https://github.com/imranow/banking-application/blob/main/assets/app_properties.png>
 <br>
-###Features
+**Features**
 
 * add new customer
 * add new account
