@@ -56,6 +56,18 @@
 
 <img src=https://github.com/imranow/banking-application/blob/main/assets/customer_delete.png>
 
+*check customer*
+
+<img src=https://github.com/imranow/banking-application/blob/main/assets/customer_checkusernamepassword.png>
+
+<br>
+
+**Account**
+
+*create account*
+
+<img src=https://github.com/imranow/banking-application/blob/main/assets/account_create.png>
+
 
 
 
