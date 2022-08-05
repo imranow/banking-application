@@ -45,6 +45,12 @@
 *read customer*
 <img src = https://github.com/imranow/banking-application/blob/main/assets/customer_read.png>
 
+*update customer details*
+<img src=https://github.com/imranow/banking-application/blob/main/assets/customer_update.png>
+
+*delete customer*
+<img src=https://github.com/imranow/banking-application/blob/main/assets/customer_delete.png>
+
 
 
 
