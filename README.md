@@ -37,8 +37,14 @@
 <br>
 
 #### Execution using Postman - CRUD
+
 *create customer*
+
 <img src =https://github.com/imranow/banking-application/blob/main/assets/Customer_create.png>
+
+*read customer*
+<img src = https://github.com/imranow/banking-application/blob/main/assets/customer_read.png>
+
 
 
 
