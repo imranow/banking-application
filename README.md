@@ -22,3 +22,4 @@
 ### Project Features
 
 <img src =https://github.com/imranow/banking-application/blob/main/assets/bank_fullscreen1.png>
+<img src =https://github.com/imranow/banking-application/blob/main/assets/bank_fullscreen2.png>
