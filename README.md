@@ -4,6 +4,14 @@
 **_This is a simple banking application that contains a 'Customer' CRUD app with multiple 'Bank accounts' CRUD functionality ._**
 <br>
 
+### Installation
+* The project is created with Maven, so you need to import it to the IDE and build the project to resolve the dependencies.
+
+### Database structure
+* You will need to create a MySQL database with the name banking-application and add credentials to application.properties under src/main/resources
+
+<img src=https://github.com/imranow/banking-application/blob/main/assets/app_properties.png>
+
 **Features**
 <br>
 * add new customer
@@ -104,6 +112,12 @@
 *Test were done using Mockito and JUnit testing*
 
 <img src=https://github.com/imranow/banking-application/blob/main/assets/Junit_test.png>
+
+<br>
+
+#### What I've learnt from this Project:
+
+* I have learnt how to build Java  and 
 
 
 
