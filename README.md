@@ -19,7 +19,16 @@
 
 <br>
 
-### Project Features
+#### Project Features
+* Below is an outline of the project structure on SpringBoot
 
 <img src =https://github.com/imranow/banking-application/blob/main/assets/bank_fullscreen1.png>
 <img src =https://github.com/imranow/banking-application/blob/main/assets/bank_fullscreen2.png>
+
+<br>
+
+#### Database
+* Below is an ERD diagram describing the relationsip between Customer and Account
+
+<img src=https://github.com/imranow/banking-application/blob/main/assets/mysql_diagram.png>
+
