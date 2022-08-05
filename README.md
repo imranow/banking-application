@@ -74,7 +74,7 @@
 
 *update account*
 
-<img src=https://github.com/imranow/banking-application/blob/main/assets/account_updatewithid.png
+<img src=https://github.com/imranow/banking-application/blob/main/assets/account_updatewithid.png>
 
 
 
