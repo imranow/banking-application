@@ -12,8 +12,8 @@
 
 <img src=https://github.com/imranow/banking-application/blob/main/assets/app_properties.png>
 <br>
-**Features**
 
+**Features**
 * add new customer
 * add new account
 * read customer
@@ -24,7 +24,7 @@
 * delete account by id
 * check customer username and password
 * check account accountnumber and pin
-<br>
+
 <br>
 
 ### Project Features
