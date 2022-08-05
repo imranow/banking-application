@@ -76,6 +76,14 @@
 
 <img src=https://github.com/imranow/banking-application/blob/main/assets/account_updatewithid.png>
 
+*delete account*
+
+<img src=https://github.com/imranow/banking-application/blob/main/assets/account_delete.png>
+
+*check account*
+
+<img src=https://github.com/imranow/banking-application/blob/main/assets/account_checkaccountnumber.png>
+
 
 
 
