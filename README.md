@@ -99,8 +99,9 @@
 
 #### Testing
 
-*As you can see below, testCreate was done to test the functionality of the system but unfortunately did not pass
-*Test were done using Mockito and JUnit testing
+*As you can see below, testCreate was done to test the functionality of the system but unfortunately did not pass*
+<br>
+*Test were done using Mockito and JUnit testing*
 
 <img src=https://github.com/imranow/banking-application/blob/main/assets/Junit_test.png>
 
