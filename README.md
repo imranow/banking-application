@@ -4,8 +4,16 @@
 **_This is a simple banking application that contains a 'Customer' CRUD app with multiple 'Bank accounts' CRUD functionality ._**
 <br>
 
-**Features**
+### Installation
+*The project is created with Maven, so you need to import it to the IDE and build the project to resolve the dependencies.*
+
+### Database structure
+*You will need to create a MySQL database with the name banking-application and add credentials to application.properties under src/main/resources*
+
+<img src=https://github.com/imranow/banking-application/blob/main/assets/app_properties.png>
 <br>
+
+### Features
 * add new customer
 * add new account
 * read customer
@@ -19,7 +27,7 @@
 
 <br>
 
-#### Project Features
+### Project Features
 * Below is an outline of the project structure on SpringBoot
 
 <img src =https://github.com/imranow/banking-application/blob/main/assets/bank_fullscreen1.png>
@@ -27,7 +35,7 @@
 
 <br>
 
-#### Database
+### Database
 * Below is an ERD diagram describing the relationsip between Customer and Account
 
 <img src=https://github.com/imranow/banking-application/blob/main/assets/mysql_diagram.png>
@@ -86,7 +94,7 @@
 
 <br>
 
-#### How to execute application on Spring Boot:
+### How to execute application on Spring Boot:
 
 * This is a Spring Boot application so it uses Tom cat server
 * The port number used is 8085 so make sure that port number is free
@@ -97,13 +105,19 @@
 
 <br>
 
-#### Testing
+### Testing
 
 *As you can see below, testCreate was done to test the functionality of the system but unfortunately did not pass*
 <br>
 *Test were done using Mockito and JUnit testing*
 
 <img src=https://github.com/imranow/banking-application/blob/main/assets/Junit_test.png>
+
+<br>
+
+### What I've learnt from this Project:
+
+*_I have learnt how to build a back-end API that can perform CRUD operations using Postman and build various Java and Spring Boot functionalities such as JUnit testing and LOMBOK. I've also learnt how to use MySQL to connect the database. In this project I expected it to be very difficult due to the short deadline and as it was my first time learning Java. In the future I'd like to correct some mistakes made such as the JUnit testing and on the CRUD operations(checking the account and customer) as shown above. I'd also like to design a front end instead of using Postman and add functionality such as adding interest rates on certain account types._*
 
 
 
